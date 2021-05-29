@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Roboto:ital@1&display=swap');
+
+
+body{
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./img/back.png);
+    margin: 30px;
+
+}
+.container{
+    
+    display: flex;
+    /* border: 2px solid black; */
+    /* background-color: gray; */
+    
+}
+.container .wrapper{
+    padding-left: 40px;
+}
+.container .list_item{
+    justify-content: space-around;
+    display: flex;
+    margin-left: auto;
+    width: 33.3333%;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style: none;
+    /* text-decoration-line: none; */
+}
+.container a{
+    padding-bottom: 0.1rem;
+    text-decoration: none;
+}
+a:hover{
+    /* border-bottom: 1px solid black; */
+    color: hotpink;
+}
+.container .wrapper .l .img{
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+.container .wrapper .l .logo{
+    
+}
+
+/*............... footer................... */
+
+.Footer{
+    
+    display: flex;
+
+}
+.Footer .bigimage{
+    margin-left: auto;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.Footer .wrapper1 .heading{
+    padding-left: 40px;
+}
+.Footer .wrapper1 .button .head_app{
+    padding-left: 40px;
+}
+.Footer .wrapper1 .button{
+    padding-left: 40px;
+    text-align: center;
+    padding-top: 100px;
+   
+   
+
+}
+.Footer .wrapper1 .button .btn{
+    background-color:lightcoral;
+    border-radius: 20px;
+    box-shadow: 0 9px 18px 0 #333333, 0 8px 24px 0 #333333;
+    cursor: pointer;
+}
+.Footer .wrapper1 .button .btn a{
+    
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.bottom{
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ...............................bottom page........................................... */
+
+
+.bottom .bottom_div{
+    justify-content: space-around;
+    display: flex;
+    /* margin-left: auto; */
+    width: 100%;
+    /* margin-top: 10px; */
+    /* border: solid 2px black; */
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+.bottom .bottom_div .mail{
+    /* float: left; */
+    padding-top: 5px;
+    margin-right: 300px;
+}
+.bottom .bottom_div .contactno{
+    /* float: right; */
+    padding-top: 5px;
+    margin-right: 200px;
+}
+
+
+/* ..................Recipe page ......................................... */
+
+
+.recipe_page .heading{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-family: 'Times New Roman Bold', Times, serif;
+    font-size: 55px;
+}
+.recipe_back_image .container{
+    background-image: url(./img/recipes_back.jpg);
+    height: 300px;
+    
+    
+}
+.recipe_back_image .container .list_item a{
+    color: white;
+    font-style: bold;
+    text-decoration: none;
+}
+.recipe_page .para{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: 1px;
+    padding-top: 20px;
+    
+
+}
+.recipe_page .head_para_div{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: solid black 2px; */
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+    
+}
+
+
+
+
+
+
+
+/* .........................Blog page...................................... */
+.blog_back_img .container{
+    background-image: url(./img/blog_back_main_img.jpg);
+    height: 600px;
+}
+.blog_page .heading{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-family: 'Times New Roman Bold', Times, serif;
+    font-size: 55px;
+    /* box-shadow: 5px grey; */
+    /* text-shadow: grey 10px; */
+}
+.blog_page .blog_div{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: solid black 2px; */
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+
+}
+.blog_page .blog_div .heading_div{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+.blog_page .blog_div .blog_para_div{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    margin-top: 1px;
+    padding-top: 20px;
+    color:red;
+    padding-bottom: 60px;
+
+}
+
+
+
+
+/* ............................LOGIN PAGE.............................................. */
+.login_page .login_div{
+    margin-left: 500px;
+    margin-right: 500px;
+    /* border: 2px solid black; */
+    background-color: white;
+    margin-bottom: 200px;
+      box-shadow: 5px 5px #888888;
+}
+
+.login_page .login_div .container{
+    display: block;
+    padding: 16px;
+}
+
+.login_page .login_div .container .same2{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login_page .login_div .container .button {
+    background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.login_page .login_div .container .button:hover{
+    opacity: 0.8;
+
+}
+.container .cancelbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.container .span.psw{
+    float: right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+.login_page .container .submitbtn{
+    size: 50px;
+    width: 20%;
+    /* height: 50%; */
+}
+
+
+
+/* .........................signup page................................... */
+
+.signup_page .container{
+    padding: 16px;
+    /* display: flex; */
+    display: block;
+    /* border: solid black 2px; */
+
+
+}
+.signup_page .container .same{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .signup_page .container .same:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+
+
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .registerbtn:hover {
+    opacity:1;
+  }
+  .signup_page .container .a{
+    color: dodgerblue;
+  }
+  .signup_page .container .hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+.signin{
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  
+  .signup_page .sign_div{
+      /* border: solid 2px black; */
+      margin-left: 500px;
+      margin-right: 500px;
+      background-color: white;
+      box-shadow: 5px 5px #888888;
+  }
+
+/* ...................utility css.......................... */
+
+
+.heading_all_recipe{
+    padding-left: 150px;
+    padding-top: 50px;
+    font-family: 'Times New Roman Bold', Times, serif;
+    font-size: 55px;
+    
+}
+.hd_info{
+    padding-left: 150px;
+    padding-top: 20px;
+    
+}
+.ingredients{
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+
+.list_of_utility{
+    
+    padding-left: 170px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.instructions{
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+
+.recipe_video{
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+.img_recipe_utility{
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+.head_recipe_utility{
+    padding-left: 400px;  
+    padding-top: 10px; 
+    
+}
+
+.head_recipe_utility a:link{
+    color: black;
+}
+
+.head_recipe_utility a:visited{
+    color:hotpink;
+}
+
+.head_recipe_utility a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.go_to_page{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* ........... 1] Pumkinpie css..................... */
+
+.pumkin_back_image .container{
+    background-image: url(./img/pumkin.jpg);
+    height: 500px;
+    /* border-image-repeat: none; */
+}
+.pumkin_back_image .container .list_item a{
+    color: white;
+    font-style: bold;
+
+}
+
+.pumkin_page .pumkin_head_div .for_the_crust{
+    padding-left: 150px;
+    
+}
+
+
+.pumkin_page .pumkin_head_div .for_the_pie{
+    padding-left: 150px;
+    
+}
+
+.pumkin_page .pumkin_head_div{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: solid black 2px; */
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+}
+
+
+
+
+
+/* ........................2] Tomato souce css............................ */
+
+.tomato_sauce_back .container{
+    background-image: url(./img/tomato_sauce_back.jpg);
+    height: 500px;
+
+}
+
+
+.tomato_sauce_back .container .list_item a{
+    color: black;
+    font-style: bold;
+
+}
+.tomato_sauce_page .tomato_head_div{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: solid black 2px; */
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+}
+
+
+
+/* ........................3] Milk and honey cake.......................... */
+
+.milk_n_honey_cake_backimg .container{
+    background-image: url(./img/easy-honey-cake-back.jpg);
+    height: 500px;
+    /* border-image-repeat: none; */
+}
+
+.milk_n_honey_cake_page .mhc_head_div .for_the_cake{
+    padding-left: 150px;
+
+}
+.milk_n_honey_cake_page .mhc_head_div .for_the_honey_cream{
+    padding-left: 150px;
+
+}
+.milk_n_honey_cake_page .mhc_head_div{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: solid black 2px; */
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+}
+
+
+
+
+
+
+i.fas{
+    /* padding-left: 20px; */
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    padding-top: 5px;
+    margin-top: 5px;
+}
